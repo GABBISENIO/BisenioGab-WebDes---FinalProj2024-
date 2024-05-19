@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You - Inori's Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: black;
+            color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center; 
+        }
+
+        .slider {
+            position: relative;
+            width: 100%;
+            height: 400px;
+            overflow: hidden;
+        }
+
+        .slides {
+            display: flex;
+            width: 300%;
+            height: 100%;
+            animation: slide 12s infinite;
+        }
+
+        .slides img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+         @keyframes slide {
+            0% { transform: translateX(0); }
+            33% { transform: translateX(-33.33%); }
+            66% { transform: translateX(-66.66%); }
+            100% { transform: translateX(0); }
+        }
+
+        h1, h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: white; 
+            font-size: 2em; 
+        }
+
+        p {
+            text-align: center; 
+            line-height: 1.6;
+            margin-bottom: 20px;
+            color: white;
+            font-size: 1.2em; 
+        }
+
+        footer {
+            background-color: #333;
+            color: white; 
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .contact {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .contact p {
+            margin: 5px 0;
+        }
+
+        .contact a {
+            margin-left: 10px;
+            color: white;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+        }
+
+        .contact img {
+            width: 20px;
+            height: auto;
+            margin-right: 5px;
+        }
+
+        .facebook-link {
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Inori's Store</h1>
+</header>
+
+<div class="slider">
+    <div class="slides">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEif7hjeM8VDpG3yS6QeOtF4J_LEIoWQ2-ZF8OptQ8vPpHGi6LLVmPNOQq5sEMkLR8p97uxKsuJb_BbKef7cAH068ry-nPIyrh4-kSg3flecqBOqyBUfmw0eAs_luT7XNfRD-ZfJXm51V848752oBQ_uIyXefQxnQbULJtuKCEZ9fjAT2Lhj7_w6PAZ-wQ/s1536/4.jpg" alt="Slide 1">
+        <img src="https://pbs.twimg.com/media/FbGtUGsVQAAUYIG.jpg" alt="Slide 2">
+        <img src="https://tamashiiweb.com/images/item/item_0000014624_XSNqLAgZ_400.jpg" alt="Slide 3">
+        <img src="https://ohmygundam.com.my/image/ohmygundam/image/data/all_product_images/product-2823/Pbandai%20PG%20Unicorn%20Gundam%20Perfectibility%201.9.jpg" alt="Slide 4">
+        <img src="https://media.karousell.com/media/photos/products/2020/7/24/metal_build_destiny_gundam__fu_1595581638_185b23ff.jpg" alt="Slide 5">
+        <img src="https://riseofgunpla.com/wp-content/uploads/2020/12/metalbuild_freedomwing021.jpg" alt="Slide 6">
+    </div>
+</div>
+
+<div class="container">
+    <h1>Thank You for Buying!</h1>
+    <p>Come Again!</p>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="contact">
+            <h3>Contact Us</h3>
+            <p>Email: info@inorisstore.com</p>
+            <p>G/F B3 Bonifacio High St., 9th Ave.</p>
+            <p>Taguig City, Metro Manila, 1635, PH</p>
+            <p>Store Hours</p>
+            <p>Sun - Thu: 10:00 AM - 9:00 PM</p>
+            <p>Phone: 123-456-7890</p>
+            <a href="https://www.facebook.com/jr.bisenio.2"><img src="https://binghamprospector.org/wp-content/uploads/2012/10/facebook-1024x1024.png" alt="Facebook" class="facebook-icon">Facebook</a>
+            <a href="https://www.instagram.com/biseniojr/"><img src="https://www.pnguniverse.com/wp-content/uploads/2020/10/Logo-de-instagram-original.png" alt="Instagram" class="instagram-icon">Instagram</a>
+        </div>
+    </div>
+    <div class="container gundam.info-link">
+        <a href="https://en.gundam.info/">Visit Us at Gundam.Info</a>
+    </div>
+</footer>
+
+</body>
+</html>
